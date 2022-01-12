@@ -23,14 +23,13 @@
         ])
     }
 
-
     const App = () => {
         return React.creatElement("div", {}, [
                 React.creatElement("h1", {}, "Adopt Me!"),
                 React.creatElement(Pet, {name: "Luna", animal: "Dog", breed: "Havanese"}),
                 React.creatElement(Pet, {name: "Pepper", animal: "Bird", breed: "Cocktiel"}),
                 React.creatElement(Pet, {name: "Doink", animal: "Cat", breed: "Mix"}),
-        ReactDOM.render(React.creatElement(APP)), document.getElementById(("root"))])
+        ReactDOM.render(React.creatElement(App)), document.getElementById("root")])
     }
 
 
